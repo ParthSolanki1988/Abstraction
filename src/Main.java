@@ -1,16 +1,24 @@
+import java.util.PriorityQueue;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Sports sports = new Badminton();
-        sports.play();
+
+        Sports badminton = new Badminton();
+        badminton.play();
+        badminton.gameTypes();
 
         System.out.println("\n");
 
-        Sports sports1 = new Cricket();
-        sports1.play();
+        Sports cricket = new Cricket();
+        cricket.play();
+        cricket.gameTypes();
 
         System.out.println("\n");
 
-        Sports sports2 = new Football();
-        sports2.play();
+        Sports football = new Football();
+        football.play();
+        football.gameTypes();
+
     }
 }
